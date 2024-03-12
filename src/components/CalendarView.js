@@ -10,7 +10,6 @@ import Chart from "chart.js/auto";
 import MenuIcon from '@mui/icons-material/Menu'; 
 import Sidebar from './Sidebar'; 
 
-
 function CalendarView() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [orders, setOrders] = useState([]);
